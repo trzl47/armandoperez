@@ -6,6 +6,7 @@ const Photos = {
       className: 'consumer',
 			img: require('./assets/p1.jpg'),
 			desc: 'looking down at the shoes of a person skateboarding while in motion ',
+			path: '',
 			id: count++
     },
 		{
@@ -13,6 +14,7 @@ const Photos = {
       className: 'enterprise',
 			img: require('./assets/p2.jpg'),
 			desc: 'a organized, full bookshelf in a library and a desk out front',
+			path: '',
 			id: count++
     },
 		{
@@ -20,6 +22,7 @@ const Photos = {
       className: 'consumer',
 			img: require('./assets/p3.jpg'),
 			desc: 'building graffiti of a bearded person and thought bubble of a smartphone',
+			path: '',
 			id: count++
     },
 		{
@@ -27,6 +30,7 @@ const Photos = {
       className: 'commerce',
 			img: require('./assets/p4.jpg'),
 			desc: 'beans on a table',
+			path: '',
 			id: count++
     },
 		{
@@ -34,6 +38,7 @@ const Photos = {
       className: 'enterprise',
 			img: require('./assets/p5.jpg'),
 			desc: 'a hanging paper lantern with east asian characters on it',
+			path: '',
 			id: count++
     },
 		{
@@ -41,6 +46,7 @@ const Photos = {
       className: 'mobile',
 			img: require('./assets/p6.jpg'),
 			desc: 'a hand holding a tablet',
+			path: '',
 			id: count++
     },
 		{
@@ -48,6 +54,7 @@ const Photos = {
       className: 'mobile',
 			img: require('./assets/p7.jpg'),
 			desc: 'an open laptop, headphones, notebook, and pen arranged ona table',
+			path: '',
 			id: count++
     },
 		{
@@ -55,6 +62,7 @@ const Photos = {
       className: 'commerce',
 			img: require('./assets/p8.jpg'),
 			desc: 'coffee cup and box of macarons',
+			path: '',
 			id: count++
     },
 		{
@@ -62,6 +70,7 @@ const Photos = {
       className: 'mobile',
 			img: require('./assets/p9.jpg'),
 			desc: 'over the shoulder perspective of a femme presenting person looking at a smartphone',
+			path: '',
 			id: count++
     },
   ],

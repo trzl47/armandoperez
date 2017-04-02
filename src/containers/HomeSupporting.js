@@ -10,8 +10,10 @@ const renderPhotographs = (photos, length) => {
 			<div className="col-md-4" key={photo.id}>
 				<Photo
 					title={photo.title}
-					desc={photo.description}
-					rte={photo.description}
+					desc={photo.desc}
+					rte={photo.path}
+					img={photo.img}
+					attr={photo.className}
 					 />
 			</div>
 		)

@@ -2,12 +2,12 @@
 import React from 'react';
 
 // Components
-import NavLink from '../../NavLink';
+import NavLink from './NavLink';
 
 const Photo = props => (
-	<NavLink to={props.path}>
+	<NavLink to={props.rte}>
 		<img src={props.img}
-			className={[props.className,"thumbnail"].join(' ')}
+			className={[props.attr,"thumbnail"].join(' ')}
 			alt={props.desc}
 			role='presentation' />
 	</NavLink>
