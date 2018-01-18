@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: trzl/portfolio:armandoperez-web_v1
+    image: trzl/portfolio:armandoperez-web_v0.0.1
     container_name: armandoperez-web
     restart: unless-stopped
     expose:
